@@ -33,4 +33,3 @@ founders-notes/
 - **Go live:** upload the whole folder to Netlify, Cloudflare Pages or GitHub Pages (`docs/HOW-TO.md`, section 4).
 
 Load order in `index.html`: `data/config.js`, `data/content.js`, `data/stories.js`, `js/features.js`, then `js/app.js`. Keep that order.
-# founders-notes

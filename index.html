@@ -14,7 +14,6 @@
   <meta property="og:title" content="Founders’ Notes — Free stories for independent founders">
   <meta property="og:description" content="Free success stories about independent founders worldwide: yoga and Pilates teachers, studio owners, martial arts and fitness instructors.">
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO after you pick a domain: add <link rel="canonical"> and og:image (absolute URL to assets/og-image.jpg) -->
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +36,7 @@
 
   <header class="site-header" id="siteHeader">
     <div class="wrap bar">
-      <a class="logo" href="#top" aria-label="Home">
+      <a class="logo" href="#home" aria-label="Home">
         <svg class="logo-svg" viewBox="0 0 740 992" aria-hidden="true" focusable="false">
           <use href="#fn-logo" />
         </svg>
@@ -64,7 +63,7 @@
   <main id="main">
     <!-- ============ HOME VIEW ============ -->
     <div id="homeView">
-      <div class="masthead">
+      <div class="masthead" data-pages="home">
         <div class="wrap">
           <div class="hero-grid">
             <div class="hero-copy">
@@ -83,11 +82,11 @@
         </div>
       </div>
 
-      <section id="stories" aria-label="Stories">
+      <section id="stories" aria-label="Stories" data-pages="home stories">
         <div class="wrap stories-head">
           <div>
             <span class="kicker mono">Stories</span>
-            <h2>Latest stories</h2>
+            <h2 id="storiesTitle">Latest stories</h2>
           </div>
           <div class="search">
             <label class="sr-only" for="q">Search stories</label>
@@ -103,11 +102,12 @@
           <div id="live" class="sr-only" aria-live="polite"></div>
           <div id="lead"></div>
           <div class="grid" id="grid"></div>
+          <div class="see-all" id="seeAll"></div>
         </div>
         <div style="height:clamp(48px,8vw,96px)"></div>
       </section>
 
-      <section class="sec" id="about" style="border-top:1px solid var(--line)">
+      <section class="sec" id="about" data-pages="about" style="border-top:1px solid var(--line)">
         <div class="wrap">
           <div class="about">
             <figure class="portrait" style="margin:0">
@@ -136,7 +136,7 @@
         </div>
       </section>
 
-      <section class="sec feature" id="get-featured">
+      <section class="sec feature" id="get-featured" data-pages="get-featured">
         <div class="wrap">
           <div class="feat-head">
             <div>
@@ -164,7 +164,7 @@
         </div>
       </section>
 
-      <section class="sec" id="faq">
+      <section class="sec" id="faq" data-pages="get-featured">
         <div class="wrap">
           <div class="faq-grid">
             <div>
@@ -190,7 +190,7 @@
         </div>
       </section>
 
-      <section class="sec" id="voices" hidden>
+      <section class="sec" id="voices" data-pages="about" hidden>
         <div class="wrap">
           <div class="sec-head">
             <span class="kicker mono">In their words</span>
@@ -200,7 +200,7 @@
         </div>
       </section>
 
-      <section class="sec" id="principles">
+      <section class="sec" id="principles" data-pages="about">
         <div class="wrap">
           <div class="sec-head">
             <span class="kicker mono">Editorial principles</span>
@@ -210,7 +210,7 @@
         </div>
       </section>
 
-      <section class="sec" id="services">
+      <section class="sec" id="services" data-pages="services">
         <div class="wrap">
           <div class="sec-head">
             <span class="kicker mono">Services</span>
@@ -229,7 +229,7 @@
         </div>
       </section>
 
-      <section class="sec" id="get-in-touch">
+      <section class="sec" id="get-in-touch" data-pages="contact">
         <div class="wrap">
           <div class="contact-grid">
             <div>
@@ -263,7 +263,7 @@
         </div>
       </section>
 
-      <section class="sec newsletter" id="newsletter">
+      <section class="sec newsletter" id="newsletter" data-pages="home contact">
         <div class="wrap">
           <form class="nl" id="newsletterForm" novalidate data-thanks="Thank you. You are on the list.">
             <div>
