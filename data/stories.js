@@ -87,7 +87,7 @@ const STORIES = [
 
   {
     id: "3",
-    image: "images/Elena-lebedinets.jpg",
+    image: "images/elena-lebedinets.jpg",
     imageAlt: "Elena Lebedinets, Pilates instructor",
     tags: ["Pilates", "Motherhood", "Personal Growth"],
     sample: false,
