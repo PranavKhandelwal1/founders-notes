@@ -379,7 +379,7 @@ const STORIES = [
 
 {
   id: "12",
-  image: "",
+  image: "images/kami-yoga.jpg",
   imageAlt: "Kami, founder of Move with Kami",
   tags: ["Yoga", "Personal Growth", "Wellness"],
   sample: false,
