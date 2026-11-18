@@ -573,7 +573,7 @@ const STORIES = [
   summary: "Nina Tievoli founded Chandra Consciousness to bring yoga, meditation, sound healing, cacao ceremonies and holistic practices together in a space for self-discovery. Starting from scratch, she is building a business rooted in personal growth, connection and the belief that meaningful change takes time.",
   business: "Chandra Consciousness",
   owner: "Nina Tievoli",
-  location: "Online",
+  location: "Chamonix, France",
   founded: "2026",
   offers: "Yoga, meditation, breathwork, cacao ceremonies, sound healing, Tibetan singing bowls and holistic wellness experiences",
   instagram: "@chandra_consciousness",
